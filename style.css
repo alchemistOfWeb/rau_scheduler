@@ -9,6 +9,23 @@ body {
 
 .scheduler-table tbody th, .scheduler-table tbody td {
     color: #fff; /* Белый текст в ячейках таблицы */
-    width: 60px;
-    height: 60px;
+    /* width: 60px;
+    height: 60px; */
+}
+
+/* Стили для таблицы с скроллбаром */
+.table-scrollable {
+    overflow: auto; 
+}
+
+/* Стили для ползунка скроллбара */
+.table-scrollable::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Цвет ползунка скроллбара */
+    border-radius: 10px; /* Закругление углов ползунка */
+}
+
+/* Стили для скроллбара */
+.table-scrollable::-webkit-scrollbar {
+    width: 12px; /* Ширина скроллбара */
+    background-color: #000066; /* Цвет скроллбара */
 }
